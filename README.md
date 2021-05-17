@@ -6,9 +6,9 @@
 
 
 
-### Lol - Que lado Ganara ? PREDICTION
+### Lol - Quien Ganara : ? --- (Equipo {Azul o Rojo})
 
-Lolo es uno de los juegos multijugador mas jugados del mundo consiste en un enfrentamiento del equipo azul vs equipo rojo. Cada quipo tiene 5 jugadores. la idea es explotar el nexo del enemigo[Lol](https://es.wikipedia.org/wiki/League_of_Legends).
+Lolo es uno de los juegos multijugador mas jugados del mundo consiste en un enfrentamiento del equipo azul vs equipo rojo. Cada quipo tiene 5 jugadores. la idea es explotar el nexo del enemigo [Lol](https://es.wikipedia.org/wiki/League_of_Legends).
 
 El ejercicio actual consiste en predecir si el equipo azul ganara según unos parámetros del juego. El objetivo del proyecto es desplegar un servicio   en la nube publica Azure mediante AzureMl. Este servicio será capaz de predecir cual equipo ganara
 
@@ -71,6 +71,7 @@ python ./05-deploy-azure-model-aci.py
 
 ## Servicio Azure Test
 
+Link Api [Api-Lol](http://42b2e83c-0169-4f4e-9ffc-ab16c2322d28.eastus2.azurecontainer.io/score) 
 
 La Api es con fines educativos por tal motivop solo esta disponible por un tiempo determinado 
 
@@ -81,7 +82,7 @@ La Api es con fines educativos por tal motivop solo esta disponible por un tiemp
 - expDiff : Diferencia de experiencia entre los equipos (-147)
 - hasWon : Pedio equipo Azul 0 = No, 1 = Gano Equipo Azul 
 
-- Link Api [Api-Lol](http://42b2e83c-0169-4f4e-9ffc-ab16c2322d28.eastus2.azurecontainer.io/score)
+
 
 
 
